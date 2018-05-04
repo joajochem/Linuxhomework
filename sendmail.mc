@@ -98,6 +98,7 @@ include(`/etc/mail/m4/dialup.m4')dnl
 include(`/etc/mail/m4/provider.m4')dnl
 dnl #
 dnl # Default Mailer setup
+FEATURE(`virtusertable', `hash -o /etc/mail/virtusertable')dnl 
 define(`SMART_HOST', `boland.xs4all.nl') 
 define(`RELAY_MAILER_ARGS', `TCP $h 443') 
 MAILER_DEFINITIONS
