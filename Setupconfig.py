@@ -87,10 +87,15 @@ with open('email.conf','r') as f:
 	print(23*"=")
 	print("                ")
 	print("overview")
+	print(23*"=")
 	print(c_server)
+	print(23*"=")
 	print(c_port)
+	print(23*"=")
 	print(c_name)
+	print(23*"=")
 	print(c_email)
+	print(23*"=")
 	print(23*"=")
 	
 with open('email.conf', 'w') as file:
