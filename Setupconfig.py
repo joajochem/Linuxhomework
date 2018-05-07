@@ -54,7 +54,7 @@ def customname():
 		print(c_name)
 		result = c_name
 	return result
-#c_email = ""
+#custommail
 def customemail():
 	answerce = raw_input("Do you want to use default settings for port YES or NO:")
 	if answerce == "YES":
