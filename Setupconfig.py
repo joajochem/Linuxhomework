@@ -71,7 +71,7 @@ def customemail():
 #replacer
 ###########################################
 
-with open('email.conf','r') as f:
+with open('email.conf','r+a') as f:
 	f_contents = f.read()
 	print(f_contents)
 	c_server = customserver()
